@@ -1,0 +1,23 @@
+TROVEX ULTIMATE WEBSITE — UPLOAD GUIDE
+
+1) فك ضغط الملف.
+2) ارفع كل الملفات والمجلدات الموجودة بداخله مباشرة إلى ROOT في GitHub Repository.
+3) وافق على استبدال index.html و styles.css و script.js والملفات القديمة.
+4) لا تحذف ملف Google verification الموجود حاليًا في Repository.
+5) اضغط Commit changes.
+6) انتظر من دقيقة إلى 3 دقائق ثم افتح:
+   https://trovexconstruction.github.io/Trovex/
+7) اعمل Ctrl + F5.
+
+GOOGLE ANALYTICS:
+- يلزم إنشاء Property في Google Analytics للحصول على Measurement ID مثل G-XXXXXXXXXX.
+- افتح index.html وستجد قسم Google Analytics داخل <head>.
+- استبدل G-XXXXXXXXXX بالمعرّف الحقيقي وأزل علامات التعليق.
+- ارفع index.html مرة أخرى.
+
+SOCIAL MEDIA:
+- لم تتم إضافة روابط LinkedIn وFacebook لأن الروابط الرسمية لم تُرسل بعد.
+- بعد إنشاء الصفحات الرسمية يمكن إضافتها في الـ footer وSchema.
+
+ملاحظة:
+تم استخدام أرقام مؤكدة فقط، ولم تتم إضافة أرقام مبالغ فيها أو شهادات عملاء غير موثقة.
