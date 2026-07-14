@@ -1,0 +1,31 @@
+TROVEX — GOOGLE INDEXING SETUP
+
+1) Upload all files in this folder to the ROOT of the GitHub repository and replace old files.
+2) Open:
+   https://trovexconstruction.github.io/Trovex/
+   Then press Ctrl + F5.
+
+GOOGLE SEARCH CONSOLE:
+1) Open Google Search Console using the company Gmail.
+2) Add a URL-prefix property:
+   https://trovexconstruction.github.io/Trovex/
+3) Verification method: HTML tag.
+4) Google will give you a tag similar to:
+   <meta name="google-site-verification" content="TOKEN">
+5) Paste it inside <head> in index.html, upload the file, then click Verify.
+6) In Sitemaps, submit:
+   sitemap.xml
+7) Use URL Inspection for:
+   https://trovexconstruction.github.io/Trovex/
+   Then click Request Indexing.
+
+GOOGLE BUSINESS PROFILE:
+- Create or claim the TROVEX business profile.
+- Use the exact same company name, phone, email and address shown on the website.
+- Add this website URL:
+  https://trovexconstruction.github.io/Trovex/
+- Add real project photos, working hours, services and company description.
+
+IMPORTANT:
+Google appearance is not instant. Indexing may begin within days, while ranking for “Trovex” can take longer.
+A custom domain such as trovexconstruction.com generally looks more professional and is easier to brand.
