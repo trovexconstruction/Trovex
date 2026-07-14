@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="Trovex logo">
+  <circle cx="160" cy="160" r="150" fill="#ffffff"/>
+  <g fill="none" stroke="#2634a6" stroke-width="25" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M160 38 L282 160 L160 282 L38 160 Z"/>
+    <path d="M160 38 L160 215 L115 170 L115 98"/>
+    <path d="M160 38 L205 83 L205 170 L160 215"/>
+  </g>
+</svg>
