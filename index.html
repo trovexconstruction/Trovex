@@ -1,165 +1,177 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="تروفكس للمقاولات العامة والتوريدات العمومية والتجارة العامة والأعمال الكهروميكانيكية في القاهرة." />
-  <meta name="theme-color" content="#071a3c" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="TROVEX — شركة مصرية للمقاولات العامة والتوريدات العمومية والتجارة العامة والأعمال الكهربائية والكهروميكانيكية.">
+  <meta name="theme-color" content="#061b3a">
+  <meta property="og:title" content="TROVEX | المقاولات والتوريدات">
+  <meta property="og:description" content="تنفيذ موثوق، توريد احترافي، وجودة تليق بمشروعك.">
   <title>TROVEX | المقاولات والتوريدات</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header" id="top">
-    <div class="container nav-wrap">
-      <a class="brand" href="#top" aria-label="Trovex home">
-        <img src="assets/images/trovex-logo.jpg" alt="TROVEX logo" />
+  <div class="progress" aria-hidden="true"></div>
+  <header class="header" id="top">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="TROVEX">
+        <img src="assets/images/trovex-logo.jpg" alt="شعار TROVEX">
       </a>
-      <button class="menu-btn" aria-label="فتح القائمة" aria-expanded="false">☰</button>
-      <nav class="main-nav" aria-label="القائمة الرئيسية">
-        <a href="#about">من نحن</a>
-        <a href="#services">خدماتنا</a>
-        <a href="#projects">سابقة الأعمال</a>
-        <a href="#why">لماذا تروفكس</a>
-        <a href="#contact">تواصل معنا</a>
+      <button class="menu" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+      <nav class="links" aria-label="التنقل الرئيسي">
+        <a href="#about" data-ar="من نحن" data-en="About">من نحن</a>
+        <a href="#services" data-ar="خدماتنا" data-en="Services">خدماتنا</a>
+        <a href="#projects" data-ar="سابقة الأعمال" data-en="Projects">سابقة الأعمال</a>
+        <a href="#standards" data-ar="منهجية العمل" data-en="Approach">منهجية العمل</a>
+        <a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a>
       </nav>
-      <a class="nav-cta" href="https://wa.me/201008877499" target="_blank" rel="noopener">طلب عرض سعر</a>
+      <div class="nav-actions">
+        <button class="lang" type="button" aria-label="تغيير اللغة">EN</button>
+        <a class="quote" href="#contact" data-ar="طلب عرض سعر" data-en="Request a Quote">طلب عرض سعر</a>
+      </div>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <div class="hero-grid container">
+      <div class="hero-bg"></div>
+      <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <span class="eyebrow">مقاولات عامة • توريدات عمومية • تجارة عامة</span>
-          <h1>تنفيذ موثوق.<br><span>جودة تليق بمشروعك.</span></h1>
-          <p>نقدم حلولًا متكاملة للأعمال الإنشائية والكهربائية والكهروميكانيكية والتوريدات، مع الالتزام بالمواصفات والمواعيد ومتطلبات الجهات الحكومية والخاصة.</p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#projects">استعرض أعمالنا</a>
-            <a class="btn secondary" href="tel:+201008877499">اتصل الآن</a>
+          <span class="eyebrow" data-ar="مقاولات عامة • توريدات عمومية • تجارة عامة" data-en="General Contracting • General Supplies • General Trading">مقاولات عامة • توريدات عمومية • تجارة عامة</span>
+          <h1 data-ar="نبني الثقة.<br><span>وننفذ باحترافية.</span>" data-en="Built on trust.<br><span>Delivered professionally.</span>">نبني الثقة.<br><span>وننفذ باحترافية.</span></h1>
+          <p data-ar="حلول متكاملة للأعمال الإنشائية والكهربائية والكهروميكانيكية والتوريدات، مع التزام واضح بالمواصفات والجودة ومواعيد التسليم." data-en="Integrated contracting, electrical, electromechanical and supply solutions, delivered with clear commitment to specifications, quality and deadlines.">حلول متكاملة للأعمال الإنشائية والكهربائية والكهروميكانيكية والتوريدات، مع التزام واضح بالمواصفات والجودة ومواعيد التسليم.</p>
+          <div class="hero-buttons">
+            <a class="btn gold" href="#projects" data-ar="استعرض أعمالنا" data-en="Explore Projects">استعرض أعمالنا</a>
+            <a class="btn ghost" href="https://wa.me/201008877499" target="_blank" rel="noopener" data-ar="تواصل عبر واتساب" data-en="WhatsApp Us">تواصل عبر واتساب</a>
           </div>
-          <div class="trust-row">
-            <div><strong>24/7</strong><span>تواصل ومتابعة</span></div>
-            <div><strong>100%</strong><span>منتجات أصلية</span></div>
-            <div><strong>مصر</strong><span>تنفيذ وتوريد</span></div>
+          <div class="trust">
+            <div><b>24/7</b><span data-ar="متابعة وتواصل" data-en="Support & follow-up">متابعة وتواصل</span></div>
+            <div><b>100%</b><span data-ar="منتجات أصلية" data-en="Genuine products">منتجات أصلية</span></div>
+            <div><b>EG</b><span data-ar="تنفيذ داخل مصر" data-en="Egypt-wide service">تنفيذ داخل مصر</span></div>
           </div>
         </div>
-        <div class="hero-visual reveal">
-          <div class="visual-card main-card">
-            <div class="line-art"></div>
-            <span>حلول متكاملة</span>
-            <h2>من الدراسة والتوريد<br>حتى التنفيذ والتسليم</h2>
+        <div class="hero-art reveal" aria-hidden="true">
+          <div class="blueprint">
+            <div class="bp-label">TROVEX</div>
+            <div class="tower t1"></div><div class="tower t2"></div><div class="tower t3"></div>
+            <div class="base"></div>
           </div>
-          <div class="floating-card fc-one">⚡ أعمال كهربائية</div>
-          <div class="floating-card fc-two">🏗️ مقاولات عامة</div>
-          <div class="floating-card fc-three">📦 توريدات عمومية</div>
+          <div class="float f1">⚡ <span data-ar="أعمال كهربائية" data-en="Electrical Works">أعمال كهربائية</span></div>
+          <div class="float f2">🏗️ <span data-ar="مقاولات عامة" data-en="General Contracting">مقاولات عامة</span></div>
+          <div class="float f3">📦 <span data-ar="توريدات عمومية" data-en="General Supplies">توريدات عمومية</span></div>
         </div>
       </div>
+      <a class="scroll" href="#about" aria-label="انتقل للأسفل">⌄</a>
     </section>
 
     <section class="section about" id="about">
-      <div class="container two-col">
-        <div class="section-copy reveal">
-          <span class="section-kicker">من نحن</span>
-          <h2>شريك تنفيذي يعتمد عليه</h2>
-          <p>تروفكس شركة مصرية تعمل في المقاولات العامة والتوريدات العمومية والتجارة العامة، وتنفذ مشروعات متنوعة للجهات الحكومية والجامعات والمؤسسات الرياضية والقطاع الخاص.</p>
-          <p>نركز على وضوح نطاق الأعمال، جودة المواد، التنسيق الفني، وسرعة الاستجابة من لحظة طلب عرض السعر حتى التسليم.</p>
+      <div class="container split">
+        <div class="copy reveal">
+          <span class="kicker" data-ar="من نحن" data-en="About TROVEX">من نحن</span>
+          <h2 data-ar="شريك تنفيذي يعتمد عليه" data-en="A reliable delivery partner">شريك تنفيذي يعتمد عليه</h2>
+          <p data-ar="تروفكس شركة مصرية متخصصة في المقاولات العامة والتوريدات العمومية والتجارة العامة. نعمل مع الجهات الحكومية والجامعات والمؤسسات الرياضية والقطاع الخاص، من مرحلة دراسة الاحتياج وحتى التنفيذ والتسليم." data-en="TROVEX is an Egyptian company specializing in general contracting, supplies and trading. We serve public entities, universities, sports institutions and private-sector clients from requirement assessment through delivery.">تروفكس شركة مصرية متخصصة في المقاولات العامة والتوريدات العمومية والتجارة العامة. نعمل مع الجهات الحكومية والجامعات والمؤسسات الرياضية والقطاع الخاص، من مرحلة دراسة الاحتياج وحتى التنفيذ والتسليم.</p>
+          <div class="signature">TROVEX <small>Construction & General Supplies</small></div>
         </div>
-        <div class="about-panel reveal">
-          <div class="panel-item"><span>01</span><h3>التزام فني</h3><p>تنفيذ طبقًا للمواصفات والرسومات المعتمدة.</p></div>
-          <div class="panel-item"><span>02</span><h3>مرونة تشغيلية</h3><p>حلول تناسب طبيعة كل موقع وجدول أعماله.</p></div>
-          <div class="panel-item"><span>03</span><h3>متابعة مستمرة</h3><p>تواصل واضح وتقارير تقدم حتى التسليم.</p></div>
-          <div class="panel-item"><span>04</span><h3>مصادر موثوقة</h3><p>توريد خامات ومنتجات أصلية من موردين معتمدين.</p></div>
+        <div class="values reveal">
+          <article><span>01</span><h3 data-ar="وضوح والتزام" data-en="Clarity & commitment">وضوح والتزام</h3><p data-ar="نطاق عمل واضح ومتابعة منظمة حتى التسليم." data-en="Clear scope and structured follow-up through handover.">نطاق عمل واضح ومتابعة منظمة حتى التسليم.</p></article>
+          <article><span>02</span><h3 data-ar="جودة معتمدة" data-en="Controlled quality">جودة معتمدة</h3><p data-ar="خامات أصلية وتنفيذ وفق المواصفات المعتمدة." data-en="Genuine materials and specification-led execution.">خامات أصلية وتنفيذ وفق المواصفات المعتمدة.</p></article>
+          <article><span>03</span><h3 data-ar="استجابة سريعة" data-en="Fast response">استجابة سريعة</h3><p data-ar="تنسيق فعال وحلول عملية لمتطلبات الموقع." data-en="Efficient coordination and practical site solutions.">تنسيق فعال وحلول عملية لمتطلبات الموقع.</p></article>
+          <article><span>04</span><h3 data-ar="تسليم احترافي" data-en="Professional handover">تسليم احترافي</h3><p data-ar="مراجعة نهائية وتسليم منظم للأعمال المنفذة." data-en="Final review and organized project handover.">مراجعة نهائية وتسليم منظم للأعمال المنفذة.</p></article>
         </div>
       </div>
     </section>
 
-    <section class="section services" id="services">
+    <section class="section dark" id="services">
       <div class="container">
-        <div class="section-head reveal">
-          <span class="section-kicker">خدماتنا</span>
-          <h2>خبرات متعددة تحت إدارة واحدة</h2>
-          <p>نطاق متكامل من الخدمات لتقليل تعدد الموردين وتسهيل إدارة المشروع.</p>
+        <div class="heading reveal">
+          <span class="kicker" data-ar="خدماتنا" data-en="Our Services">خدماتنا</span>
+          <h2 data-ar="خبرات متعددة تحت إدارة واحدة" data-en="Multiple capabilities. One accountable team.">خبرات متعددة تحت إدارة واحدة</h2>
+          <p data-ar="نقدم نطاقًا متكاملًا يساعد العميل على تقليل تعدد الموردين وتوحيد مسؤولية التنفيذ." data-en="An integrated scope that reduces supplier fragmentation and keeps accountability clear.">نقدم نطاقًا متكاملًا يساعد العميل على تقليل تعدد الموردين وتوحيد مسؤولية التنفيذ.</p>
         </div>
-        <div class="service-grid">
-          <article class="service-card reveal"><div class="icon">🏗️</div><h3>المقاولات العامة</h3><p>أعمال مدنية، ترميم، تطوير، تشطيبات وصيانة للمباني والمنشآت.</p></article>
-          <article class="service-card reveal"><div class="icon">⚡</div><h3>الأعمال الكهربائية</h3><p>لوحات توزيع، كابلات، توصيلات، شبكات جهد منخفض وأعمال إنارة.</p></article>
-          <article class="service-card reveal"><div class="icon">🔧</div><h3>الأعمال الكهروميكانيكية</h3><p>تنسيق وتنفيذ الأنظمة الميكانيكية والكهربائية بالمواقع المختلفة.</p></article>
-          <article class="service-card reveal"><div class="icon">📦</div><h3>التوريدات العمومية</h3><p>توريد مستلزمات ومعدات وخامات وفق المواصفات والكميات المطلوبة.</p></article>
-          <article class="service-card reveal"><div class="icon">🛠️</div><h3>الصيانة والتطوير</h3><p>رفع كفاءة المنشآت ومعالجة الأعمال القائمة وتحسين الاعتمادية.</p></article>
-          <article class="service-card reveal"><div class="icon">📋</div><h3>إدارة التنفيذ</h3><p>تنسيق الموردين والعمالة والمتابعة الفنية والتسليم المنظم.</p></article>
+        <div class="cards services">
+          <article class="card reveal"><i>🏗️</i><h3 data-ar="المقاولات العامة" data-en="General Contracting">المقاولات العامة</h3><p data-ar="أعمال مدنية وترميم وتطوير وتشطيبات وصيانة للمباني والمنشآت." data-en="Civil works, renovation, upgrading, finishing and building maintenance.">أعمال مدنية وترميم وتطوير وتشطيبات وصيانة للمباني والمنشآت.</p></article>
+          <article class="card reveal"><i>⚡</i><h3 data-ar="الأعمال الكهربائية" data-en="Electrical Works">الأعمال الكهربائية</h3><p data-ar="لوحات توزيع وكابلات وتوصيلات وإنارة وشبكات جهد منخفض." data-en="Distribution panels, cabling, connections, lighting and LV systems.">لوحات توزيع وكابلات وتوصيلات وإنارة وشبكات جهد منخفض.</p></article>
+          <article class="card reveal"><i>⚙️</i><h3 data-ar="الأعمال الكهروميكانيكية" data-en="Electromechanical Works">الأعمال الكهروميكانيكية</h3><p data-ar="تنسيق وتنفيذ الأنظمة الكهربائية والميكانيكية داخل المواقع." data-en="Coordination and execution of electrical and mechanical systems.">تنسيق وتنفيذ الأنظمة الكهربائية والميكانيكية داخل المواقع.</p></article>
+          <article class="card reveal"><i>📦</i><h3 data-ar="التوريدات العمومية" data-en="General Supplies">التوريدات العمومية</h3><p data-ar="توريد معدات وخامات ومستلزمات وفق المواصفات والكميات المطلوبة." data-en="Supply of equipment, materials and items to required specifications.">توريد معدات وخامات ومستلزمات وفق المواصفات والكميات المطلوبة.</p></article>
+          <article class="card reveal"><i>🛠️</i><h3 data-ar="الصيانة ورفع الكفاءة" data-en="Maintenance & Upgrading">الصيانة ورفع الكفاءة</h3><p data-ar="معالجة الأعمال القائمة وتحسين الأداء والاعتمادية التشغيلية." data-en="Corrective works and operational reliability improvements.">معالجة الأعمال القائمة وتحسين الأداء والاعتمادية التشغيلية.</p></article>
+          <article class="card reveal"><i>📋</i><h3 data-ar="إدارة التنفيذ" data-en="Delivery Management">إدارة التنفيذ</h3><p data-ar="تنسيق الموردين والعمالة والمتابعة الفنية والتسليم المنظم." data-en="Supplier, labor, technical follow-up and handover coordination.">تنسيق الموردين والعمالة والمتابعة الفنية والتسليم المنظم.</p></article>
         </div>
       </div>
     </section>
 
     <section class="section projects" id="projects">
       <div class="container">
-        <div class="section-head reveal">
-          <span class="section-kicker">سابقة الأعمال</span>
-          <h2>مشروعات مع جهات كبرى</h2>
-          <p>نعرض الجهات ونطاقات الأعمال بصورة مهنية دون نشر العقود أو المستندات الداخلية.</p>
+        <div class="heading reveal">
+          <span class="kicker" data-ar="سابقة الأعمال" data-en="Selected Experience">سابقة الأعمال</span>
+          <h2 data-ar="نماذج من الجهات والمشروعات" data-en="Selected clients and project sectors">نماذج من الجهات والمشروعات</h2>
+          <p data-ar="نعرض أسماء الجهات ونطاق الأعمال بصورة مهنية دون نشر العقود أو المستندات الداخلية." data-en="Client names and work scopes are presented professionally without publishing contracts or internal documents.">نعرض أسماء الجهات ونطاق الأعمال بصورة مهنية دون نشر العقود أو المستندات الداخلية.</p>
         </div>
         <div class="project-grid">
-          <article class="project-card ministry reveal">
-            <div class="project-top"><span class="project-badge">جهة حكومية</span><span class="project-icon">🏛️</span></div>
-            <div class="project-body"><h3>وزارة الداخلية</h3><p>أعمال تطوير ورفع كفاءة وأعمال كهربائية وتوريدات لمبانٍ إدارية تابعة للوزارة.</p><ul><li>أعمال كهربائية</li><li>رفع كفاءة</li><li>توريدات</li></ul></div>
-          </article>
-          <article class="project-card university reveal">
-            <div class="project-top"><span class="project-badge">قطاع جامعي</span><span class="project-icon">🎓</span></div>
-            <div class="project-body"><h3>جامعة عين شمس</h3><p>توريد وتركيب لوحات كهربائية وتنفيذ توصيلات كهربائية لأعمال التكييف.</p><ul><li>لوحات توزيع</li><li>كابلات وتوصيلات</li><li>اختبارات وتسليم</li></ul></div>
-          </article>
-          <article class="project-card sports reveal">
-            <div class="project-top"><span class="project-badge">منشآت رياضية</span><span class="project-icon">🏆</span></div>
-            <div class="project-body"><h3>النادي الأهلي</h3><p>أعمال صيانة وتطوير وتشطيبات مدنية بمواقع النادي، وفق متطلبات التشغيل والجودة.</p><ul><li>صيانة دورية</li><li>أعمال مدنية</li><li>تطوير مرافق</li></ul></div>
-          </article>
-          <article class="project-card menoufia reveal">
-            <div class="project-top"><span class="project-badge">قطاع جامعي</span><span class="project-icon">🏫</span></div>
-            <div class="project-body"><h3>جامعة المنوفية</h3><p>أعمال تطوير ورفع كفاءة لدورات المياه والأعمال المدنية والتشطيبات المرتبطة بها.</p><ul><li>تشطيبات</li><li>أعمال صحية</li><li>رفع كفاءة</li></ul></div>
-          </article>
+          <article class="project reveal p-ministry"><div class="project-top"><span data-ar="جهة حكومية" data-en="Government">جهة حكومية</span><b>01</b></div><div class="project-body"><h3 data-ar="وزارة الداخلية" data-en="Ministry of Interior">وزارة الداخلية</h3><p data-ar="أعمال تطوير ورفع كفاءة وأعمال كهربائية وتوريدات وفق متطلبات المواقع." data-en="Upgrading, electrical works and supplies aligned with site requirements.">أعمال تطوير ورفع كفاءة وأعمال كهربائية وتوريدات وفق متطلبات المواقع.</p><small data-ar="القاهرة • أعمال متعددة" data-en="Cairo • Multiple scopes">القاهرة • أعمال متعددة</small></div></article>
+          <article class="project reveal p-university"><div class="project-top"><span data-ar="قطاع جامعي" data-en="University">قطاع جامعي</span><b>02</b></div><div class="project-body"><h3 data-ar="جامعة عين شمس" data-en="Ain Shams University">جامعة عين شمس</h3><p data-ar="توريد وتركيب لوحات وتوصيلات كهربائية وأعمال مرتبطة بالتكييفات." data-en="Supply and installation of panels and electrical connections for HVAC systems.">توريد وتركيب لوحات وتوصيلات كهربائية وأعمال مرتبطة بالتكييفات.</p><small data-ar="القاهرة • أعمال كهربائية" data-en="Cairo • Electrical works">القاهرة • أعمال كهربائية</small></div></article>
+          <article class="project reveal p-club"><div class="project-top"><span data-ar="مؤسسة رياضية" data-en="Sports Institution">مؤسسة رياضية</span><b>03</b></div><div class="project-body"><h3 data-ar="النادي الأهلي" data-en="Al Ahly Sporting Club">النادي الأهلي</h3><p data-ar="أعمال صيانة وتطوير ومعالجات مدنية وتشطيبات بمواقع متعددة." data-en="Maintenance, upgrading, civil treatment and finishing works at multiple sites.">أعمال صيانة وتطوير ومعالجات مدنية وتشطيبات بمواقع متعددة.</p><small data-ar="القاهرة والشيخ زايد • صيانة وتطوير" data-en="Cairo & Sheikh Zayed • Maintenance">القاهرة والشيخ زايد • صيانة وتطوير</small></div></article>
+          <article class="project reveal p-menoufia"><div class="project-top"><span data-ar="قطاع جامعي" data-en="University">قطاع جامعي</span><b>04</b></div><div class="project-body"><h3 data-ar="جامعة المنوفية" data-en="Menoufia University">جامعة المنوفية</h3><p data-ar="أعمال تطوير ورفع كفاءة وتشطيبات للمرافق والخدمات." data-en="Upgrading and finishing works for facilities and services.">أعمال تطوير ورفع كفاءة وتشطيبات للمرافق والخدمات.</p><small data-ar="المنوفية • تطوير وتشطيبات" data-en="Menoufia • Upgrading & finishing">المنوفية • تطوير وتشطيبات</small></div></article>
+          <article class="project reveal p-wadi"><div class="project-top"><span data-ar="قطاع أعمال" data-en="Corporate">قطاع أعمال</span><b>05</b></div><div class="project-body"><h3 data-ar="وادي النيل" data-en="Wadi El Nile">وادي النيل</h3><p data-ar="توريدات فنية ومهمات كهربائية ومستلزمات تشغيل وفق أوامر التوريد." data-en="Technical supplies, electrical equipment and operating items.">توريدات فنية ومهمات كهربائية ومستلزمات تشغيل وفق أوامر التوريد.</p><small data-ar="مواقع متعددة • توريدات" data-en="Multiple sites • Supplies">مواقع متعددة • توريدات</small></div></article>
+          <article class="project reveal p-other"><div class="project-top"><span data-ar="مشروعات متنوعة" data-en="Diverse Projects">مشروعات متنوعة</span><b>06</b></div><div class="project-body"><h3 data-ar="جهات حكومية وخاصة" data-en="Public & Private Clients">جهات حكومية وخاصة</h3><p data-ar="تنفيذ وتوريد وصيانة وفق نطاقات عمل ومواصفات مختلفة." data-en="Execution, supply and maintenance across varied specifications and scopes.">تنفيذ وتوريد وصيانة وفق نطاقات عمل ومواصفات مختلفة.</p><small data-ar="جمهورية مصر العربية" data-en="Egypt">جمهورية مصر العربية</small></div></article>
         </div>
       </div>
     </section>
 
-    <section class="section why" id="why">
-      <div class="container why-wrap">
-        <div class="why-copy reveal"><span class="section-kicker light">لماذا تروفكس؟</span><h2>نحوّل متطلبات المشروع إلى نتيجة واضحة</h2><p>نوازن بين الجودة والتكلفة والوقت، مع الحفاظ على التواصل المستمر وتوثيق خطوات التنفيذ.</p><a class="btn gold" href="#contact">ابدأ مشروعك معنا</a></div>
-        <div class="why-list reveal">
-          <div><strong>01</strong><span><b>سرعة الاستجابة</b>معاينة وتسعير ومتابعة بصورة عملية.</span></div>
-          <div><strong>02</strong><span><b>وضوح نطاق الأعمال</b>بنود ومواصفات والتزامات واضحة قبل البدء.</span></div>
-          <div><strong>03</strong><span><b>جودة التنفيذ</b>فحص الخامات ومراجعة الأعمال قبل التسليم.</span></div>
-          <div><strong>04</strong><span><b>حلول مناسبة</b>بدائل فنية وتجارية تناسب ميزانية المشروع.</span></div>
+    <section class="section process" id="standards">
+      <div class="container">
+        <div class="heading reveal"><span class="kicker" data-ar="منهجية العمل" data-en="Our Approach">منهجية العمل</span><h2 data-ar="مسار واضح من الطلب إلى التسليم" data-en="A clear path from request to handover">مسار واضح من الطلب إلى التسليم</h2></div>
+        <div class="steps">
+          <article class="reveal"><b>01</b><h3 data-ar="فهم المتطلبات" data-en="Understand">فهم المتطلبات</h3><p data-ar="مراجعة نطاق العمل والمواصفات والكميات." data-en="Review scope, specifications and quantities.">مراجعة نطاق العمل والمواصفات والكميات.</p></article>
+          <article class="reveal"><b>02</b><h3 data-ar="العرض الفني والمالي" data-en="Proposal">العرض الفني والمالي</h3><p data-ar="تسعير واضح وخطة تنفيذ واقعية." data-en="Clear pricing and a realistic delivery plan.">تسعير واضح وخطة تنفيذ واقعية.</p></article>
+          <article class="reveal"><b>03</b><h3 data-ar="التنفيذ والمتابعة" data-en="Execution">التنفيذ والمتابعة</h3><p data-ar="تنسيق الموقع والجودة والتقدم بصورة مستمرة." data-en="Continuous site, quality and progress coordination.">تنسيق الموقع والجودة والتقدم بصورة مستمرة.</p></article>
+          <article class="reveal"><b>04</b><h3 data-ar="المراجعة والتسليم" data-en="Handover">المراجعة والتسليم</h3><p data-ar="فحص الأعمال والتسليم بصورة منظمة." data-en="Inspection and organized project handover.">فحص الأعمال والتسليم بصورة منظمة.</p></article>
         </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-box reveal">
+        <div><span data-ar="لديك مشروع أو طلب توريد؟" data-en="Have a project or supply request?">لديك مشروع أو طلب توريد؟</span><h2 data-ar="دعنا نجهز لك عرضًا مناسبًا" data-en="Let us prepare the right proposal">دعنا نجهز لك عرضًا مناسبًا</h2></div>
+        <a class="btn gold" href="#contact" data-ar="ابدأ الآن" data-en="Get Started">ابدأ الآن</a>
       </div>
     </section>
 
     <section class="section contact" id="contact">
       <div class="container contact-grid">
-        <div class="contact-copy reveal"><span class="section-kicker">تواصل معنا</span><h2>جاهزون لدراسة مشروعك</h2><p>أرسل نطاق الأعمال أو المقايسة وسيتواصل معك فريق تروفكس لمراجعة المتطلبات وإعداد العرض.</p>
-          <div class="contact-details">
-            <a href="tel:+201008877499"><span>الهاتف</span><b>0100 887 7499</b></a>
-            <a href="mailto:trovex2024@gmail.com"><span>البريد الإلكتروني</span><b>trovex2024@gmail.com</b></a>
-            <div><span>العنوان</span><b>18 أبو بكر الصديق، محور شنزو آبي، مدينة نصر، القاهرة</b></div>
-          </div>
+        <div class="contact-info reveal">
+          <span class="kicker" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</span>
+          <h2 data-ar="جاهزون لمناقشة مشروعك" data-en="Ready to discuss your project">جاهزون لمناقشة مشروعك</h2>
+          <p data-ar="أرسل بيانات الطلب وسنتواصل معك لمراجعة النطاق والكميات وموعد التنفيذ." data-en="Send your requirements and we will contact you to review scope, quantities and schedule.">أرسل بيانات الطلب وسنتواصل معك لمراجعة النطاق والكميات وموعد التنفيذ.</p>
+          <ul>
+            <li><span>☎</span><a href="tel:+201008877499">0100 887 7499</a></li>
+            <li><span>✉</span><a href="mailto:trovex2024@gmail.com">trovex2024@gmail.com</a></li>
+            <li><span>⌖</span><p data-ar="18 أبو بكر الصديق، محور شنزو آبي، مدينة نصر، القاهرة" data-en="18 Abu Bakr El-Seddik, Shinzo Abe Axis, Nasr City, Cairo">18 أبو بكر الصديق، محور شنزو آبي، مدينة نصر، القاهرة</p></li>
+          </ul>
         </div>
-        <form class="quote-form reveal" id="quoteForm">
-          <h3>طلب عرض سعر</h3>
-          <label>الاسم<input type="text" id="name" required placeholder="الاسم أو اسم الشركة"></label>
-          <label>رقم الهاتف<input type="tel" id="phone" required placeholder="01xxxxxxxxx"></label>
-          <label>نوع الخدمة<select id="service"><option>مقاولات عامة</option><option>أعمال كهربائية</option><option>توريدات عمومية</option><option>صيانة وتطوير</option><option>أخرى</option></select></label>
-          <label>تفاصيل الطلب<textarea id="message" rows="4" placeholder="اكتب نبذة مختصرة عن المطلوب"></textarea></label>
-          <button class="btn primary full" type="submit">إرسال عبر واتساب</button>
+        <form class="form reveal" id="quoteForm">
+          <label><span data-ar="الاسم" data-en="Name">الاسم</span><input id="name" required></label>
+          <label><span data-ar="الشركة / الجهة" data-en="Company / Entity">الشركة / الجهة</span><input id="company"></label>
+          <label><span data-ar="رقم الهاتف" data-en="Phone">رقم الهاتف</span><input id="phone" inputmode="tel" required></label>
+          <label><span data-ar="نوع الطلب" data-en="Request Type">نوع الطلب</span><select id="type"><option data-ar="مقاولات عامة" data-en="General Contracting">مقاولات عامة</option><option data-ar="أعمال كهربائية" data-en="Electrical Works">أعمال كهربائية</option><option data-ar="توريدات عمومية" data-en="General Supplies">توريدات عمومية</option><option data-ar="صيانة ورفع كفاءة" data-en="Maintenance & Upgrading">صيانة ورفع كفاءة</option></select></label>
+          <label class="full"><span data-ar="تفاصيل مختصرة" data-en="Brief Details">تفاصيل مختصرة</span><textarea id="details" rows="4" required></textarea></label>
+          <button class="btn gold full" type="submit" data-ar="إرسال الطلب عبر واتساب" data-en="Send via WhatsApp">إرسال الطلب عبر واتساب</button>
         </form>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="container footer-wrap"><div class="footer-brand"><img src="assets/images/trovex-logo.jpg" alt="TROVEX"><p>المقاولات العامة والتوريدات العمومية والتجارة العامة.</p></div><div class="footer-links"><a href="#about">من نحن</a><a href="#services">خدماتنا</a><a href="#projects">سابقة الأعمال</a><a href="#contact">تواصل معنا</a></div><div class="copyright">© <span id="year"></span> TROVEX. جميع الحقوق محفوظة.</div></div>
+    <div class="container footer-grid">
+      <div class="foot-brand"><img src="assets/images/trovex-logo.jpg" alt="TROVEX"><p data-ar="المقاولات العامة • التوريدات العمومية • التجارة العامة" data-en="General Contracting • General Supplies • General Trading">المقاولات العامة • التوريدات العمومية • التجارة العامة</p></div>
+      <div><h4 data-ar="روابط سريعة" data-en="Quick Links">روابط سريعة</h4><a href="#about" data-ar="من نحن" data-en="About">من نحن</a><a href="#services" data-ar="الخدمات" data-en="Services">الخدمات</a><a href="#projects" data-ar="سابقة الأعمال" data-en="Projects">سابقة الأعمال</a></div>
+      <div><h4 data-ar="تواصل" data-en="Contact">تواصل</h4><a href="tel:+201008877499">0100 887 7499</a><a href="mailto:trovex2024@gmail.com">trovex2024@gmail.com</a></div>
+    </div>
+    <div class="copyright">© <span id="year"></span> TROVEX. <span data-ar="جميع الحقوق محفوظة." data-en="All rights reserved.">جميع الحقوق محفوظة.</span></div>
   </footer>
-
-  <a class="whatsapp" href="https://wa.me/201008877499" target="_blank" rel="noopener" aria-label="WhatsApp">واتساب</a>
+  <a class="whatsapp" href="https://wa.me/201008877499" target="_blank" rel="noopener" aria-label="WhatsApp">◉</a>
   <script src="script.js"></script>
 </body>
 </html>
